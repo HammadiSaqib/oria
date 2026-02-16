@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-navy: #0f172a; /* Slate 900 - Deep, Secure */
+  --color-brand-charcoal: #334155; /* Slate 700 - Professional */
+  --color-brand-gold: #cca43b; /* Muted Gold - Wealth, Stability */
+  --color-brand-gold-light: #e5c56d; /* Lighter Gold for hovers */
+  --color-brand-light: #f8fafc; /* Slate 50 - Clean background */
+  --color-brand-gray: #64748b; /* Slate 500 - Text */
+  --color-brand-accent: #0ea5e9; /* Sky 500 - Trust accent (optional usage) */
+  
+  --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-serif: 'Playfair Display', Georgia, Cambria, 'Times New Roman', Times, serif; /* Added for headings */
+
+  --animate-fade-in-up: fadeInUp 0.8s ease-out forwards;
+  --animate-fade-in: fadeIn 1s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-brand-light text-brand-navy antialiased font-sans;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold tracking-tight text-brand-navy;
+  }
+  h1, h2 {
+    @apply font-serif; /* Use serif for main headings for institutional feel */
+  }
+}
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  .text-shadow-lg {
+    text-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+}
