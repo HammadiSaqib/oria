@@ -93,7 +93,7 @@ const Contact = () => (
                 </div>
 
                 <div className="relative">
-                    <div className="sticky top-24">
+                    <div className="lg:sticky lg:top-24">
                         <SecureForm title="Send a Message" type="contact" className="shadow-2xl border-brand-gold/20" />
                     </div>
                 </div>

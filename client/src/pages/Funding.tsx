@@ -113,7 +113,7 @@ const Funding = () => (
 
                 {/* Sidebar */}
                 <div className="lg:col-span-1">
-                    <div className="sticky top-24 space-y-8">
+                    <div className="lg:sticky lg:top-24 space-y-8">
                         <SecureForm title="Start Your Funding Review" type="funding" className="shadow-2xl border-brand-gold/20" />
                         
                         <div className="p-6 bg-gradient-to-br from-brand-charcoal to-brand-navy rounded-2xl text-white text-center shadow-lg border border-white/5">

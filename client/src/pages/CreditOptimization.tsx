@@ -107,7 +107,7 @@ const CreditOptimization = () => (
                 </div>
 
                 <div className="lg:col-span-1">
-                    <div className="sticky top-24">
+                    <div className="lg:sticky lg:top-24">
                         <SecureForm title="Request Credit Review" type="credit" className="shadow-2xl border-brand-gold/20" />
                         
                          <div className="mt-8 p-6 bg-white rounded-2xl shadow-lg border border-gray-100 text-center">

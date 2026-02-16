@@ -104,7 +104,7 @@ const MerchantServices = () => (
                 </div>
 
                 <div className="lg:col-span-1">
-                    <div className="sticky top-24">
+                    <div className="lg:sticky lg:top-24">
                         <SecureForm title="Request Processing Review" type="merchant" className="shadow-2xl border-brand-gold/20" />
                         
                         <div className="mt-8 p-6 bg-brand-navy text-white rounded-2xl shadow-lg relative overflow-hidden group cursor-pointer">
