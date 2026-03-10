@@ -1,5 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Lock, ChevronRight } from 'lucide-react';
+import { Menu, X, ChevronRight } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { cn } from '../lib/utils';
 import Button from './ui/Button';
@@ -20,10 +20,11 @@ const Navbar = () => {
 
   const navLinks = [
     { name: 'Home', path: '/' },
-    { name: 'Funding', path: '/funding' },
-    { name: 'Credit', path: '/credit-optimization' },
+    { name: 'Business Funding', path: '/funding' },
+    { name: 'Credit Reapir', path: '/credit-optimization' },
     { name: 'Merchant', path: '/merchant-services' },
     { name: 'Legal', path: '/legal-services' },
+    { name: 'Personal Loan', path: '/personal-loan' },
     { name: 'Process', path: '/process' },
     { name: 'About', path: '/about' },
     { name: 'Contact', path: '/contact' },
@@ -41,8 +42,8 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
             <Link to="/" className="group flex flex-col items-end leading-none">
-              <span className="font-serif text-3xl font-bold text-brand-gold tracking-widest text-shadow-sm">ORIA</span>
-              <span className="font-serif text-[10px] font-bold text-brand-gold tracking-[0.3em] mr-0.5">USA</span>
+              <span className="font-serif text-3xl font-semibold text-brand-gold tracking-widest text-shadow-sm">ORIA</span>
+              <span className="font-serif text-[10px] font-semibold text-brand-gold tracking-[0.3em] mr-0.5">USA</span>
             </Link>
           </div>
           
@@ -62,19 +63,6 @@ const Navbar = () => {
                 {link.name}
               </Link>
             ))}
-            <div className="h-6 w-px bg-gray-300/30 mx-2" />
-            <Link
-              to="/client-login"
-              className={cn(
-                "text-sm font-medium flex items-center gap-2 transition-colors",
-                scrolled || !isHome 
-                  ? "text-brand-navy hover:text-brand-gold" 
-                  : "text-white hover:text-brand-gold"
-              )}
-            >
-              <Lock className="w-4 h-4" />
-              Login
-            </Link>
             <Link to="/contact">
               <Button 
                 size="sm" 
@@ -126,14 +114,6 @@ const Navbar = () => {
             </Link>
           ))}
           <div className="border-t border-gray-100 my-2 pt-2">
-            <Link
-              to="/client-login"
-              className="block px-3 py-3 rounded-md text-base font-medium text-brand-navy hover:bg-brand-light flex items-center gap-2"
-              onClick={() => setIsOpen(false)}
-            >
-              <Lock className="w-4 h-4" />
-              Client Portal
-            </Link>
             <Link
               to="/contact"
               className="block w-full text-center px-4 py-3 mt-4 text-base font-bold rounded-md text-white bg-brand-navy hover:bg-brand-charcoal shadow-md"

@@ -9,8 +9,8 @@ const Footer = () => {
           {/* Brand Column */}
           <div className="space-y-6">
             <div className="flex flex-col items-start leading-none">
-              <span className="font-serif text-4xl font-bold text-brand-gold tracking-widest text-shadow-sm">ORIA</span>
-              <span className="font-serif text-xs font-bold text-brand-gold tracking-[0.3em] ml-1">USA</span>
+              <span className="font-serif text-4xl font-semibold text-brand-gold tracking-widest text-shadow-sm">ORIA</span>
+              <span className="font-serif text-xs font-semibold text-brand-gold tracking-[0.3em] ml-1">USA</span>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed max-w-xs">
               Nationwide Financial Guidance. Structured for Stability.

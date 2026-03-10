@@ -168,7 +168,7 @@ const CreditOptimization = () => {
           </form>
 
           <p className="text-gray-600 mt-6">All documents are submitted securely and reviewed confidentially.</p>
-          <p className="text-gray-600 mt-2">All submissions must be sent to: oriasusaofficial@gmail.com</p>
+          <p className="text-gray-600 mt-2">Once reviewed, a member of our team will reach out to discuss the next phase of your credit optimization.</p>
         </div>
       </section>
     </MainLayout>

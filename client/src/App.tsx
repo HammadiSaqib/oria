@@ -14,6 +14,7 @@ import ScrollToTop from './components/ScrollToTop';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsOfService from './pages/TermsOfService';
 import Disclosures from './pages/Disclosures';
+import PersonalLoan from './pages/PersonalLoan';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <Route path="/faq" element={<FAQ />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/client-login" element={<ClientLogin />} />
+        <Route path="/personal-loan" element={<PersonalLoan />} />
         
         {/* Legal Routes */}
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
