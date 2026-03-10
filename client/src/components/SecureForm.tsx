@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Lock, Shield, CheckCircle, AlertCircle } from 'lucide-react';
+import { Lock, Shield, CheckCircle } from 'lucide-react';
 import Button from './ui/Button';
 import { cn } from '../lib/utils';
 
@@ -48,7 +48,7 @@ const SecureForm = ({ title = "Secure Inquiry", type = 'contact', className }: S
         } else {
             alert('There was an error submitting your request. Please try again.');
         }
-    } catch (error) {
+    } catch {
         alert('Network error. Please try again later.');
     } finally {
         setIsSubmitting(false);

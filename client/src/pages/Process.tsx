@@ -1,8 +1,7 @@
 import MainLayout from '../layouts/MainLayout';
-import { Search, FileSpreadsheet, TrendingUp, ArrowRight, CheckCircle2, GitBranch } from 'lucide-react';
+import { Search, FileSpreadsheet, TrendingUp, CheckCircle2, GitBranch } from 'lucide-react';
 import Button from '../components/ui/Button';
 import { Link } from 'react-router-dom';
-import { cn } from '../lib/utils';
 
 const Process = () => (
   <MainLayout>

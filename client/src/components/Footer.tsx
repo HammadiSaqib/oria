@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Mail, Phone, MapPin } from 'lucide-react';
+import { Mail, MapPin } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -58,15 +58,11 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start gap-3 text-sm text-gray-400">
                 <MapPin className="w-5 h-5 text-brand-gold flex-shrink-0" />
-                <span>123 Financial District Blvd<br/>Suite 400, New York, NY 10005</span>
-              </li>
-              <li className="flex items-center gap-3 text-sm text-gray-400">
-                <Phone className="w-5 h-5 text-brand-gold flex-shrink-0" />
-                <span>(800) 555-0199</span>
+                <span>1401 21st Street Suite 11224<br/>Sacramento CA 95811</span>
               </li>
               <li className="flex items-center gap-3 text-sm text-gray-400">
                 <Mail className="w-5 h-5 text-brand-gold flex-shrink-0" />
-                <span>support@oriausa.com</span>
+                <span>oriasusaofficial@gmail.com</span>
               </li>
             </ul>
           </div>

@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom';
 import { CheckCircle, Shield, TrendingUp, CreditCard, Scale, Lock, ArrowRight, UserCheck, Layout, FileText, ChevronRight, Star, BarChart3, PieChart } from 'lucide-react';
 import MainLayout from '../layouts/MainLayout';
 import Button from '../components/ui/Button';
-import { cn } from '../lib/utils';
 
 const Home = () => {
   return (

@@ -1,6 +1,5 @@
 import MainLayout from '../layouts/MainLayout';
 import { Shield, Users, Lock, BarChart, CheckCircle2, Target } from 'lucide-react';
-import { cn } from '../lib/utils';
 
 const About = () => (
   <MainLayout>

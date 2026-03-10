@@ -1,7 +1,6 @@
 import MainLayout from '../layouts/MainLayout';
 import SecureForm from '../components/SecureForm';
-import { Mail, Phone, MapPin, Clock, MessageSquare } from 'lucide-react';
-import { cn } from '../lib/utils';
+import { Mail, MapPin, Clock, MessageSquare } from 'lucide-react';
 
 const Contact = () => (
   <MainLayout>
@@ -41,19 +40,8 @@ const Contact = () => (
                                 </div>
                                 <div>
                                     <h3 className="font-bold text-brand-navy text-lg">Email Us</h3>
-                                    <p className="text-gray-600 font-medium">support@oriausa.com</p>
+                                    <p className="text-gray-600 font-medium">oriasusaofficial@gmail.com</p>
                                     <p className="text-sm text-gray-400 mt-1">Response time: Within 24 hours</p>
-                                </div>
-                            </div>
-
-                            <div className="flex items-start gap-5 group">
-                                <div className="w-12 h-12 bg-brand-light rounded-xl flex items-center justify-center flex-shrink-0 group-hover:bg-brand-navy transition-colors">
-                                    <Phone className="w-6 h-6 text-brand-navy group-hover:text-brand-gold transition-colors" />
-                                </div>
-                                <div>
-                                    <h3 className="font-bold text-brand-navy text-lg">Call Us</h3>
-                                    <p className="text-gray-600 font-medium">(800) 555-0199</p>
-                                    <p className="text-sm text-gray-400 mt-1">Mon-Fri, 9am - 6pm EST</p>
                                 </div>
                             </div>
 
@@ -63,7 +51,7 @@ const Contact = () => (
                                 </div>
                                 <div>
                                     <h3 className="font-bold text-brand-navy text-lg">Visit Us</h3>
-                                    <p className="text-gray-600 leading-relaxed">123 Financial District Blvd, Suite 400<br />New York, NY 10005</p>
+                                    <p className="text-gray-600 leading-relaxed">1401 21st Street Suite 11224<br />Sacramento CA 95811</p>
                                 </div>
                             </div>
                         </div>
